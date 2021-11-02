@@ -17,4 +17,13 @@
 * Cart autmatically calculates the total price of all the products in the cart and displays that total back to the user.
 
 # Product
-* 
+* Product class is an abstarct base class that has three sub-classes that extend from it.
+  * It is abstract because I do not want users to be able to create instances of it. I want them to create instances of the Product Class's sub-classes because they are much more specific and it will model the real-world.
+* Each Product consists of a name, description, and price.
+* Product class uses the Comparable Interface.
+  * I use the Comparable Interface to override the compareTo(Product) method so that the Inventory and Cart will be sorted in the Store Front.
+
+# Weapon, Armor, Health
+* Sub-classes extending from Product base class.
+* Consist of the same behaviors and characteristics as the Product class, but are able to be instantiated, unlike the Product class.
+* These objects are what make up the Inventory and Cart.
