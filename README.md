@@ -1,5 +1,5 @@
 # UML Class Diagram
-![Storefront UML](https://user-images.githubusercontent.com/90354190/139885528-c0f2aa44-dd9a-4554-91be-f23e20b3bbb2.png)
+![Storefront UML (1)](https://user-images.githubusercontent.com/90354190/142257339-b00d6673-c3d3-4edd-b5e7-470cfa995455.png)
 
 # Store Front
 * This is where the program is ran.
